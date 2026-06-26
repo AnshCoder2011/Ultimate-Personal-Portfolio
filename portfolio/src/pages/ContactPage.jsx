@@ -217,6 +217,9 @@ function Embers() {
     return pos;
   }, [count]);
 
+
+  
+
   const ref = useRef();
   useFrame((state) => {
     if (ref.current) ref.current.rotation.y = -state.clock.getElapsedTime() * 0.02;

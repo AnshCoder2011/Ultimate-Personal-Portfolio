@@ -17,7 +17,7 @@ import Nova from "./pages/Nova";
 import ContactPage from "./pages/ContactPage";
 
 const App = () => {
-  // ⏳ TEMPORARILY DISABLED LOADER FOR FAST DEV CHANGES
+// ⏳ TEMPORARILY DISABLED LOADER FOR FAST DEV CHANGES
   const [loading, setLoading] = useState(true); 
   const [isMounted, setIsMounted] = useState(false);
   const [analyticsOpen, setAnalyticsOpen] = useState(false);
